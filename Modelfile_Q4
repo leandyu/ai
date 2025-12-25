@@ -1,0 +1,10 @@
+FROM ../gguf-output/deepseek-lora-q4_k_m.gguf
+
+TEMPLATE """
+{{ .Prompt }}
+"""
+
+PARAMETER stop "[INST]"
+PARAMETER stop "[/INST]"
+PARAMETER num_ctx 4096
+
