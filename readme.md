@@ -33,16 +33,5 @@ streamlit run scripts/streamlitDemo2.py
 # 准备工作 - 启动本地向量数据库
 python3 -m venv rag-env # 创建虚拟环境
 source venv/bin/activate
-(venv) jz@jzdeMac-mini rag-project % ./venv/bin/chroma run --path ./vector_db
+(venv)  % ./venv/bin/chroma run --path ./vector_db
 
-
-./quantize llama-2-7b-f16.gguf llama-2-7b-q4_k_m.gguf Q4_K_M
-
-
-1. 根据剧中人物进行二次，续写前传/后传（保留剧本风格，人物关系，历史背景等），
-2. 根据剧本进行续写（保留剧本风格，人物关系，历史背景等），
-3. 根据剧本进行二次创新（保留剧本风格）
-
-
-QwQ-32B (如 QwQ-32B-ArliAI-RpR-v1)
-qlora
